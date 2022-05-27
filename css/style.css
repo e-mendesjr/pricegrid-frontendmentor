@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF;
+    font-family: Karla, sans-serif;
+    font-size: 1em;
+    width: 100%;
+}
+
+.cabecalho {
+    padding-left: 40px;
+    background-color: #FFF;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.tituloCabecalho {
+    color: hsl(179, 62%, 43%);
+    font-size: 3em;
+    padding: 40px 0;
+}
+
+.subtituloCabecalho {
+    color: hsl(71, 73%, 54%);
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.paragrafoCabecalho {
+    font-size: 1.2em;
+    line-height: 30px;
+    width: 1300px;
+    color: hsl(218, 22%, 67%);
+}
+
+.segundoConteudoPagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(179, 62%, 43%);
+    align-items: stretch;
+    width: 100%;
+}
+
+.secaoMonth {
+    padding: 40px;
+    min-width: 50%;
+}
+
+.tituloMonth, .tituloWhyUs {
+    color: hsl(204, 43%, 100%);
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+.paragrafoDolar {
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-right: 20px;
+    color: hsl(204, 43%, 100%);
+}
+
+.paragrafoMonth {
+    padding-bottom: 40px;
+    color: hsl(204, 43%, 100%);
+    font-size: 1.2em;
+}
+
+.paragrafoPerMonth {
+    color: hsl(204, 43%, 85%);
+}
+
+.botaoSignUp {
+    margin: 0 auto;
+    height: 47px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: hsl(204, 43%, 100%);
+    font-size: 1.2em;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 0 0 1em teal;
+}
+
+.botaoSignUp:hover {
+    background-color: hsl(71, 70%, 60%);
+    color: hsl(204, 45%, 100%);
+    cursor: pointer;
+}
+
+.secaoWhyUs {
+    padding: 40px;
+    min-width: 50%;
+    background-color: hsl(179, 62%, 50%);
+}
+
+.listaWhyUs {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.itemListaWhyUs {
+    line-height: 25px;
+}
+
+.linkListaWhyUs {
+    text-decoration: none;
+    color: hsl(204, 43%, 95%);
+}
+
+.linkListaWhyUs:hover {
+     color: hsl(204, 43%, 90%);   
+}
+
+.paragrafoRodape { 
+    font-size: 0.9em;
+    text-align: center; 
+    margin: 10px 0 5px 0;  
+    position: relative;
+}
+    
+.paragrafoRodape a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (min-width: 320px) and (max-width: 595px) 
+{
+   .cabecalho {
+        padding-left: 20px;
+    }
+
+    .tituloCabecalho {
+        font-size: 1.7em;
+        padding: 20px 0;
+    }
+
+    .subtituloCabecalho {
+        font-size: 1.2em;
+    }
+
+    .paragrafoCabecalho {
+        max-width: 100%;
+    }
+
+    .paragrafoCabecalho, .paragrafoMonth, .paragrafoPerMonth {
+        font-size: 0.9em;
+    }
+
+    .segundoConteudoPagina {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .tituloMonth, .tituloWhyUs {
+        font-size: 1.4em;
+    }
+
+    .secaoMonth, .secaoWhyUs {
+        padding: 20px;
+    }
+
+    .listaWhyUs {
+        padding: 0;
+        font-size: 0.9em;
+    }
+
+     .paragrafoMonth {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .paragrafoDolar {
+        padding-right: 10px;
+    }
+
+    .botaoSignUp {
+        margin-top: 0;
+    }
+
+    footer {
+        display: none;
+    }   
+}
+
+@media (min-width: 595px) and (max-width: 800px)
+{
+    .cabecalho {
+        padding-left: 40px;
+    }
+
+    .tituloCabecalho {
+        font-size: 3em;
+        padding: 20px 0;
+    }
+
+    .subtituloCabecalho {
+        font-size: 2em;
+    }
+
+    .paragrafoCabecalho {
+        max-width: 100%;
+    }
+
+    .paragrafoCabecalho, .paragrafoMonth {
+        font-size: 1.3em;
+    }
+
+    .listaWhyUs {
+        font-size: 1.2em;
+    }
+
+    .paragrafoDolar {
+        font-size: 3.5em;
+        padding-right: 10px;
+    }
+
+    .paragrafoPerMonth {
+        font-size: 1.3em;
+        padding-bottom: 20px;
+    }
+
+    .paragrafoMonth {
+        padding-bottom: 20px;
+    }
+
+    .segundoConteudoPagina {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tituloMonth, .tituloWhyUs {
+        font-size: 3em;
+    }
+
+    footer {
+        display: none;
+    }
+}
