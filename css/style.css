@@ -130,6 +130,9 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
+footer {
+    display: none;
+}
 
 @media (min-width: 320px) and (max-width: 595px) 
 {
