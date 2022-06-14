@@ -130,7 +130,7 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
-footer {
+footer, .paragrafoRodape, .paragrafoRodape a {
     display: none;
 }
 
